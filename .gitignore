@@ -1,7 +1,6 @@
 # SA Frontend ignored files
 node_modules/
 **/sa-frontend/build/
-**/sa-frontend/public/
 
 # SA Logic ignored files
 venv/
@@ -10,6 +9,8 @@ venv/
 target/
 .mvn/
 !**/maven-wrapper.jar
+*venv
+.DS_Store
 
 # IDE ignored files
 .idea/
